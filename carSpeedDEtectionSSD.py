@@ -2,7 +2,7 @@ import cv2
 import torch 
 import torchvision
 import math
-
+ #hi
 model = torchvision.models.detection.ssdlite320_mobilenet_v3_large(pretrained=True)
 model.eval()
 
